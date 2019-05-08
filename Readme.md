@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Natali Vysotskaya](https://up.htmlacademy.ru/htmlcss/25/user/202385).
-* Наставник: [Валерий Хаслер] https://htmlacademy.ru/profile/id224163
+* Наставник: [Валерий Хаслер](https://htmlacademy.ru/profile/id224163)
 
 ---
 
