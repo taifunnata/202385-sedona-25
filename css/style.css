@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color:  #000000; 
+    background-color:#ffffff;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    background-color: lightgray;
+}
+
+.visually-hidden{
+    text-align: center; 
+}
+
+.advantages1 {
+    background-color: #81b3d2; 
+    color: #ffffff;
+}
+
+.features-list1 {
+    list-style: none;   
+}
+
+.feature-item1 {
+    text-align: center; 
+}
+
+.feature-item1 h3 {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.advantages2 {
+    color: #000000;
+    background-color:  #eeeeee;
+}
+
+.feature-item2 {
+    list-style: none; 
+    text-align: center; 
+}
+  
+  .feature-item2 h2 {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.services h2 {
+    text-align: center; 
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-item {
+    text-align: center;
+}
+
+.services-item h3 {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+}
