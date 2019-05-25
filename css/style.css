@@ -36,7 +36,18 @@ a {
     background-color: lightgray;
 }
 
-.visually-hidden{
+.welcome{
+    text-align: center; 
+}
+
+}
+/* .container {
+    background-image: url("img/background.png");
+} */
+
+
+
+.visually-hidden {
     text-align: center; 
 }
 
@@ -93,3 +104,16 @@ a {
     line-height: 1;
     color: #000000;
 }
+
+
+.more a {
+color: white;
+background: #81b3d2;
+}
+
+.booking a {
+    color: white;
+    background: #766357;
+    }
+
+    
