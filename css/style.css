@@ -15,6 +15,9 @@ a {
     text-decoration: none;
 }
 
+.main-header {
+text-align: center;
+}
 
 .main-navigation {
     font-size: 14px;
@@ -27,6 +30,10 @@ a {
     list-style: none;
 }
 
+.site-navigation li {
+    display: inline;
+}
+
 .site-navigation a {
     color: #000000;
 }
@@ -37,14 +44,13 @@ a {
 }
 
 .welcome{
+    padding: 76px;
     text-align: center; 
+    background-image: url("../img/background.png");
+    object-fit: contain;
+    background-size: cover;
+    /* background-position: ; */
 }
-
-}
-/* .container {
-    background-image: url("img/background.png");
-} */
-
 
 
 .visually-hidden {
