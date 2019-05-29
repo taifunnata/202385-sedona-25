@@ -5,13 +5,12 @@ body {
     background-color: #ffffff;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
-    text-transform: uppercase;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
-a {
+.main-navigation a {
     text-decoration: none;
 }
 
@@ -90,55 +89,9 @@ a {
     text-align: center;  
 }
 
-/*Преимущества
- .real-town {
- display: flex;
- flex-direction: column;
- justify-content: flex-start;
- align-items: flex-start;
- width: 400px;
- height: 256px;
- 
-}
-
-.description {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 800px;
-  height: 256px;
-  object-fit: contain;
-} */
-
-
-
-
-
-/* .features-list h3 {
-    font-size: 21px;
-    font-weight: bold;
-    line-height: 1;
-    color: #ffffff;
-} */
-
-/* .advantages2 {
-    color: #000000;
-    background-color:  #eeeeee;
-} */
-
-/* .feature-item-bridge {
-    list-style: none; 
-    text-align: center; 
-}
-
-.features-list h2 {
-    font-size: 21px;
-    line-height: 21px;
-} */
-
 .services h2 {
     text-align: center; 
+    font-family: "PT Sans", Arial, sans-serif;
 }
 
 .services-list {
@@ -154,6 +107,7 @@ a {
     font-weight: bold;
     line-height: 1;
     color: #000000;
+    font-family: "PT Sans", Arial, sans-serif;
 }
 
 .interesting {
@@ -233,6 +187,10 @@ color: #000000;
   background-color: #f2f2f2;
   }
 
+.housing li {
+list-style: none;
+  }
+
 .visitsedona {
     width: 136px;
     height: 16px;
@@ -243,8 +201,12 @@ color: #000000;
   }
 
   .social-button {
+    text-decoration: none;
     background-color: #81b3d2;
+    list-style: none;
   } 
+
+  
 
  .developer-logo {
     width: 74px;
