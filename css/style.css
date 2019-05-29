@@ -152,15 +152,15 @@ body {
 .modal-search__body {
     text-align: center;
     width: 568px;
-  height: 395px;
+    height: 395px;
     size: 14px;
     font-weight: bold;
 }
 
 .modal-search__body input {
-font: inherit;
-background: #f2f2f2;
-color: #000000;
+    font: inherit;
+    background: #f2f2f2;
+    color: #000000;
 }
 
 .blue-button  {
@@ -169,27 +169,27 @@ color: #000000;
     background-color: #81b3d2;
     font-size: 21px;
     color: #ffffff;
-  }
+}
 
-  .modal-search__body {
-      background-image: url(../img/map.jpg);
-      width: 1200px;
-      height: 593px;
-      object-fit: contain;
-  }
+.modal-search__body {
+    background-image: url(../img/map.jpg);
+    width: 1200px;
+    height: 593px;
+    object-fit: contain;
+}
 
-  .rating {
-  width: 110px;
-  height: 27px;
-  font-size: 14px;
-  text-align: center;
-  color: #666666;
-  background-color: #f2f2f2;
-  }
+.rating {
+    width: 110px;
+    height: 27px;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    background-color: #f2f2f2;
+}
 
 .housing li {
-list-style: none;
-  }
+    list-style: none;
+}
 
 .visitsedona {
     width: 136px;
@@ -198,26 +198,26 @@ list-style: none;
     font-weight: bold;
     text-align: center;
     color: #000000;
-  }
+}
 
-  .social-button {
+.social-button {
     text-decoration: none;
     background-color: #81b3d2;
     list-style: none;
-  } 
+} 
 
-  
 
- .developer-logo {
+
+.developer-logo {
     width: 74px;
     height: 11px;
     font-size: 14px;
     text-align: center;
     color: #000000;
- }
+}
 
- .logo-html {
- width: 115px;
- height: 41px;
- object-fit: contain;
+.logo-html {
+    width: 115px;
+    height: 41px;
+    object-fit: contain;
 }
