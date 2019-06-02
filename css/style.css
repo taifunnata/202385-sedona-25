@@ -102,6 +102,30 @@ body {
 
 .features {
     text-align: center;
+    display: flex;
+}
+
+.features .features__info {
+    flex: 0 0 20%;
+    background-color: #81b3d2;
+}
+
+.features .features__image {
+    flex: 1;
+    background-image: url(../img/feature-picture.jpg);  
+}
+
+.features .features__info .features__title {
+    margin-top: 46px;
+    margin-bottom: 36px;
+}
+
+.features .features__info .features__number {
+    margin-bottom: 36px;
+}
+
+.features .features__info .features__text {
+    margin-bottom: 64px;
 }
 
 .features-list {
@@ -155,10 +179,15 @@ body {
 
 .modal-search__body {
     width: 568px;
-    height: 395px;
-    box-shadow: 0px 7px 15px 0 var;
-    
+    height: 395px; 
 }
+
+form {
+    width: 568px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
 .search-button {
     font-size: 21px;
     width: 568px;
@@ -240,4 +269,13 @@ body {
     width: 115px;
     height: 41px;
     object-fit: contain;
+}
+
+.social {
+list-style: none;
+}
+
+.services {
+    display: flex;
+    
 }
