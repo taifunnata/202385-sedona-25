@@ -217,6 +217,7 @@ body {
 }
 
 .services-list {
+    display: flex;
     list-style: none;
 }
 
@@ -360,4 +361,8 @@ list-style: none;
 .main-footer {
     display: flex;
     justify-content: space-between;
+}
+
+.reasons__continued {
+    display: flex;
 }
