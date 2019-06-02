@@ -16,6 +16,7 @@ body {
 }
 
 .main-navigation a {
+
     text-decoration: none;
 }
 
@@ -25,6 +26,8 @@ body {
 }
 
 .main-navigation {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: bold;
     font-size: 14px;
     line-height: 26px;
     color:  #000000; 
@@ -36,9 +39,19 @@ body {
 }
 
 .sedona-town {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: bold;
     text-align: center;
     font-size: 21px;
     color: #000000;
+}
+
+.reasons {
+    font-family: "PT Sans Regular", Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    text-color: #333333;
 }
 
 .cause {
@@ -70,9 +83,6 @@ body {
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
-    
-
-
 }
 
 .site-navigation li {
@@ -105,7 +115,17 @@ body {
     display: flex;
 }
 
+.bridge {
+    text-align: center;
+    display: flex; 
+}
+
 .features .features__info {
+    flex: 0 0 20%;
+    background-color: #81b3d2;
+}
+
+.bridge .bridge__info {
     flex: 0 0 20%;
     background-color: #81b3d2;
 }
@@ -115,7 +135,17 @@ body {
     background-image: url(../img/feature-picture.jpg);  
 }
 
+.bridge .bridge__image {
+    flex: 1;
+    background-image: url(../img/layer-5.jpg);
+}
+
 .features .features__info .features__title {
+    margin-top: 46px;
+    margin-bottom: 36px;
+}
+
+.bridge.bridge__info .bridge__title {
     margin-top: 46px;
     margin-bottom: 36px;
 }
@@ -124,13 +154,61 @@ body {
     margin-bottom: 36px;
 }
 
+.bridge .bridge__info .bridge__number {
+    margin-bottom: 36px;
+}
+
 .features .features__info .features__text {
+    margin-bottom: 64px;
+}
+
+.bridge .bridge__info .bridge__text {
     margin-bottom: 64px;
 }
 
 .features-list {
     list-style: none;  
     text-align: center;  
+}
+
+.features__title {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.bridge__title {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.features__number {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.bridge__number {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.features__text {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.bridge__text {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
 }
 
 .services h2 {
@@ -275,7 +353,11 @@ form {
 list-style: none;
 }
 
-.services {
+/* .services {
+    display: flex;   
+} */
+
+.main-footer {
     display: flex;
-    
+    justify-content: space-between;
 }
