@@ -51,7 +51,7 @@ body {
     font-size: 14px;
     text-align: center;
     line-height: 26px;
-    text-color: #333333;
+    color: #333333;
 }
 
 .cause {
@@ -254,7 +254,6 @@ body {
 .index-columns {
     text-align: center;
 }
-}
 
 .modal-search__body {
     width: 568px;
@@ -354,10 +353,6 @@ form {
 list-style: none;
 }
 
-/* .services {
-    display: flex;   
-} */
-
 .main-footer {
     display: flex;
     justify-content: space-between;
@@ -365,4 +360,15 @@ list-style: none;
 
 .reasons__continued {
     display: flex;
+    list-style: none;
+    background-color: #eeeeee;
 }
+
+.reasons-item-square {
+    color: #333333;
+}
+
+.housing__catalog {
+    flex-direction: row;
+}
+
