@@ -329,6 +329,10 @@ form {
     text-decoration: none;
 }
 
+.footer__social-list {
+    list-style: none;
+}
+
 .footer__social-list-item {
     display: inline-block;
 }
