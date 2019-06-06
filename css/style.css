@@ -15,8 +15,11 @@ body {
     box-sizing: border-box;
 }
 
-.main-navigation a {
+/* ////////////////////////////////////////////////////////// */
 
+/* HEADER */
+
+.main-navigation a {
     text-decoration: none;
 }
 
@@ -33,6 +36,20 @@ body {
     color:  #000000; 
     background-color:#ffffff;
 }
+
+.visitsedona {
+    width: 136px;
+    height: 16px;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+/* CONTENT */
 
 .container {
     position: relative;
@@ -109,8 +126,13 @@ body {
     background-image: url("../img/background.png");
     object-fit: contain;
     background-size: cover;
-    
 }
+
+/* .welcome-mask {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+} */
 
 .features {
     text-align: center;
@@ -318,15 +340,29 @@ body {
     list-style: none;
 }
 
-.visitsedona {
-    width: 136px;
-    height: 16px;
-    font-size: 21px;
-    font-weight: bold;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
+.reasons__continued {
+    display: flex;
+    list-style: none;
+    background-color: #eeeeee;
 }
+
+.reasons-item-square {
+    color: #333333;
+}
+
+.housing__catalog__item {
+    display: flex;
+    padding: 30px 72px;
+    border-top: 1px solid #f2f2f2;
+}
+
+.housing__catalog__item:last-child {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+
+
+/* FOOTER */
 
 .footer__social-list {
     list-style: none;
@@ -350,25 +386,13 @@ body {
     align-items: center;
 }
 
-.developer {
-    /* display: flex; */
-}
-
 .developer__text {
-    /* display: inline-block; */
     font-size:14px;
     line-height: 26px;
     color:black;
     font-family: "PT Sans","Arial", sans-serif;
     font-weight: 800;
-    /* padding-bottom: 5px; */
 }
-
-.developer__link {
-    /* padding-top: 5px; */
-}
-
-
 
 .logo-html {
     width: 115px;
@@ -381,34 +405,11 @@ body {
     list-style: none;
 }
 
-/* .footer__social-list-item {
-} */
-
 .footer {
     padding: 36px 0;
     display: flex;
     justify-content: space-around;
     background-color: #ffffff;
-}
-
-.reasons__continued {
-    display: flex;
-    list-style: none;
-    background-color: #eeeeee;
-}
-
-.reasons-item-square {
-    color: #333333;
-}
-
-.housing__catalog__item {
-    display: flex;
-    padding: 30px 72px;
-    border-top: 1px solid #f2f2f2;
-}
-
-.housing__catalog__item:last-child {
-    border-bottom: 1px solid #f2f2f2;
 }
 
 .map {
@@ -417,3 +418,153 @@ body {
     height: 593px;
     object-fit: contain;
 }
+
+/* ////////////////////////////////////////////////////////// */
+
+
+/* FILTER */
+
+body {
+    font-weight: 400;
+    font-family: "PT Sans", Arial, sans-serif;
+  
+    background: #2a3e45; /* для демо */
+  }
+  
+  .filter-range {
+    width: 330px;
+    margin: 50px auto; /* для демо */
+  
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .filter-range-title {
+    margin-bottom: 9px;
+  
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  
+  .price-controls {
+    position: relative;
+    
+    height: 36px;
+    margin-bottom: 20px;
+    
+    font-size: 0;
+  
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+  }
+  
+  .price-controls::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    width: 2px;
+    height: 22px;
+  
+    background: #ffffff;
+    transform: translate(-50%, -50%);
+  }
+  
+  .price-controls label {
+    display: inline-block;
+  
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+  
+    cursor: pointer;
+  }
+  
+  .price-controls .min-price,
+  .price-controls .max-price {
+    width: 90px;
+    padding-left: 65px;
+  }
+  
+  .price-controls input {
+    width: 50px;
+    margin: 0;
+  
+    color: inherit;
+    font: inherit;
+  
+    background: none;
+    border: none;
+  }
+  
+  .range-controls {
+    position: relative;
+  
+    margin-bottom: 32px;
+  }
+  
+  .range-controls .scale {
+    height: 2px;
+  
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .range-controls .bar {
+    width: 80%;
+    height: 2px;
+  
+    background: #ffffff;
+  }
+  
+  .range-toggle {
+    position: absolute;
+    top: -9px;
+    
+    width: 4px;
+    height: 4px;
+  
+    background: #ababab;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    cursor: pointer;
+  }
+  
+  .range-toggle:hover {
+    background: #1c4f80;
+  }
+  
+  .range-toggle-min {
+    left: 0;
+  }
+  
+  .range-toggle-max {
+    left: 80%;
+  }
+  
+  .btn-transparent {
+    display: block;
+    margin: 0 auto;
+    padding: 6px 35px;
+  
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+  
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .btn-transparent:hover {
+    color: #000000;
+  
+    background: #ffffff;
+  }
+    
+
+  /* //////////////////////////////////////// */
