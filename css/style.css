@@ -66,11 +66,26 @@ body {
 }
 
 .reasons {
+    padding: 50px 0 63px 0;
     font-family: "PT Sans Regular", Arial, sans-serif;
     font-size: 14px;
     text-align: center;
-    line-height: 26px;
+    line-height: 1.5;
     color: #333333;
+    background-color: #eeeeee;
+}
+
+.reasons .feature-item {
+    text-transform: uppercase;
+}
+
+.feature-item__number {
+    margin: 30px 0 30px 0;
+}
+
+.feature-item__text {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .cause {
@@ -232,6 +247,10 @@ body {
     color: #ffffff;
 }
 
+.services {
+    padding: 60px 0 85px 0;
+}
+
 .services h2 {
     text-align: center; 
     font-family: "PT Sans", Arial, sans-serif;
@@ -247,15 +266,35 @@ body {
 }
 
 .services-item h3 {
+    margin: 30px 0 30px 0;
     font-size: 21px;
     font-weight: bold;
     line-height: 1;
-    color: #000000;
-    font-family: "PT Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.services-item p {
+    width: 70%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 1.5;
 }
 
 .interesting {
+    padding-top: 57px;
     text-align: center;
+}
+
+.interesting h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.interesting p {
+    width: 434px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+    text-transform: uppercase;
 }
 
 .more a {
@@ -285,11 +324,12 @@ body {
     background-color: #766357;
     text-transform: uppercase;
     border: none;
+    font-weight: bold;
 }
 
 .modal-search {
     position: absolute;
-    bottom: 198px;
+    bottom: 262px;
     left: 50%;
     transform: translate(-50%);
     width: 568px;
@@ -315,6 +355,23 @@ body {
 
 .modal-search .form-block {
     margin-bottom: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-search .form-block label {
+    text-transform: uppercase;
+}
+
+.modal-search .form-block input {
+    padding: 0 13px 0 9px;
+    width: 346px;
+    height: 38px;
+    margin-right: -50px;
+}
+
+.modal-search .form-block img {
+    color: #a9a9a9;
 }
 
 .blue-button  {
@@ -343,7 +400,6 @@ body {
 .reasons__continued {
     display: flex;
     list-style: none;
-    background-color: #eeeeee;
 }
 
 .reasons-item-square {
