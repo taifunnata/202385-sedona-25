@@ -24,6 +24,7 @@ body {
 }
 
 .main-header {
+    height: 56px;
     position: relative;
     text-align: center;
 }
@@ -105,6 +106,7 @@ body {
 }
 
 .main-header-logo {
+    z-index: 100;
     position: absolute;
     left: 50%;
     top: 0;
@@ -297,14 +299,18 @@ body {
     text-transform: uppercase;
 }
 
-.more a {
+.more {
+    padding: 8px 17px;
     color: white;
     background: #81b3d2;
+    text-transform: uppercase;
 }
 
-.booking a {
+.booking {
+    padding: 8px 16px;
     color: white;
     background: #766357;
+    text-transform: uppercase;
 }
 
 .search {
@@ -408,6 +414,7 @@ body {
 
 .housing__catalog__item {
     display: flex;
+    justify-content: space-between;
     padding: 30px 72px;
     border-top: 1px solid #f2f2f2;
 }
@@ -416,7 +423,34 @@ body {
     border-bottom: 1px solid #f2f2f2;
 }
 
+.housing__catalog__image {
+    margin-right: 30px;
+}
 
+.housing__catalog__info {
+    margin-right: auto;
+}
+
+.housing__catalog__info h2 {
+    margin-bottom: 17px;
+}
+
+.info-block {
+    display: inline-block;
+}
+
+.info-block p {
+    margin-bottom: 18px;
+}
+
+.aligned-to-right {
+    text-align: right;
+}
+
+.columns {
+    /* display: flex;
+    flex-direction: column; */
+}
 
 /* FOOTER */
 

@@ -24,62 +24,91 @@
 
   <!-- CONTENT -->
   <main class="container">
+
+      <div class="filter-range">
+        <div class="filter-range-title">Стоимость в сутки (р):</div>
+        <div class="price-controls">
+          <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+          <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+        </div>
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
+        <button class="btn-transparent" type="submit">Показать</button>
+      </div>
+
     <section class="housing">
       <ul class="housing__catalog">
         <li class="housing__catalog__item">
-          <img src="img/index-amara.jpg" width="150" height="100" alt="amara">
-          <h2>AMIRA RESORT & SPA</h2>
-          <p>Гостиница</p>
-          <p>от 4000 р.</p>
-          <div class="more">
-            <a >Подробнее</a>
+          <img class="housing__catalog__image" src="img/index-amara.jpg" width="150" height="100" alt="amara">
+          <div class="housing__catalog__info">
+            <h2>AMARA RESORT & SPA</h2>
+            <div class="info-block">
+              <p>Гостиница</p>
+              <div class="more">
+                <a>Подробнее</a>
+              </div>
+            </div>
+            <div class="info-block">
+              <p class="aligned-to-right">от 4000 р.</p>
+              <div class="booking">
+                <a>Забронировать</a>
+              </div>
+            </div>
           </div>
-          <div class="booking">
-            <a>Забронировать</a>
-          </div>
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <div class="rating">
-            <p>рейтинг: 8.3</p>
+          <div class="housing__catalog__rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <div class="rating">
+              <p>рейтинг: 8.3</p>
+            </div>
           </div>
         </li>
         <li class="housing__catalog__item">
           <img src="img/index-desert.jpg" width="150" height="100" alt="desert">
-          <h2>DESERT QUAIL INN</h2>
-          <p>Мотель</p>
-          <p>от 3000 р.</p>
-          <div class="more">
-            <a>Подробнее</a>
-          </div>
-          <div class="booking">
-            <a>Забронировать</a>
-          </div>
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <div class="rating">
-            <p>рейтинг: 8.9</p>
-          </div>
+            <div class="columns"></div>
+              <h2>DESERT QUAIL INN</h2>
+              <p>Мотель</p>
+              <p>от 3000 р.</p>
+            </div>
+            <div class="more">
+              <a>Подробнее</a>
+            </div>
+            <div class="booking">
+              <a>Забронировать</a>
+            </div>
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <div class="rating">
+              <p>рейтинг: 8.9</p>
+            </div>
         </li>
         <li class="housing__catalog__item">
           <img src="img/index-villas.jpg" width="150" height="100" alt="villas">
-          <h2>VILLAS AT POCO DIABLO</h2>
-          <p>Апартаменты</p>
-          <p>от 2000 р.</p>
-          <div class="more">
-            <a>Подробнее</a>
-          </div>
-          <div class="booking">
-            <a>Забронировать</a>
-          </div>
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <img src="img/star.svg" width="15" height="15" alt="rating">
-          <div class="rating">
-            <p>рейтинг: 9.2</p>
-          </div>  
+            <div class="columns">
+              <h2>VILLAS AT POCO DIABLO</h2>
+              <p>Апартаменты</p>
+              <p>от 2000 р.</p>
+            </div>
+            <div class="more">
+              <a>Подробнее</a>
+            </div>
+            <div class="booking">
+              <a>Забронировать</a>
+            </div>
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <img src="img/star.svg" width="15" height="15" alt="rating">
+            <div class="rating">
+              <p>рейтинг: 9.2</p>
+            </div>  
         </li>
       </ul>
     </section>
@@ -109,7 +138,7 @@
         </li>
       </ul>
     </div>
-    
+
     <div class="developer">
         <span class="developer__text">Website by</span>
         <a class="developer__link" href="https://htmlacademy.ru/intensive/htmlcss">
