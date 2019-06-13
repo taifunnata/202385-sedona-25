@@ -336,6 +336,7 @@ body {
 .housing__catalog__item {
     display: flex;
     justify-content: space-between;
+    /* align-items: stretch; */
     padding: 30px 72px;
     border-top: 1px solid #f2f2f2;
 }
@@ -345,10 +346,21 @@ body {
 }
 
 .housing__catalog__image {
+    width: 135px;
+    height: auto;
     margin-right: 30px;
 }
 
+.housing__catalog__rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .housing__catalog__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-right: auto;
 }
 
@@ -357,10 +369,13 @@ body {
 }
 
 .info-block {
-    display: inline-block;
+    width: 255px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .info-block p {
+    text-transform: uppercase;
     margin-bottom: 18px;
 }
 
@@ -497,18 +512,44 @@ body {
     justify-content: space-between;
 }
 
-.modal-search .form-block label {
+.modal-search .form-block-half {
+    margin-bottom: 54px;
+    display: flex;
+}
+
+.modal-search label {
     text-transform: uppercase;
 }
 
 .modal-search .form-block input {
     padding: 0 13px 0 9px;
     width: 346px;
-    height: 38px;
     margin-right: -50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.modal-search .form-block-half label {
+    margin-right: 45px;
+}
+
+.modal-search .form-block-half input {
+    padding: 0 13px 0 9px;
+    width: 40%;
+    margin-right: -50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.modal-search .form-block-half input#children {
+    flex: 0 0 60%;
 }
 
 .modal-search .form-block img {
+    width: 21px;
+    /* padding-top: 8px; */
     color: #a9a9a9;
 }
 
@@ -522,19 +563,9 @@ body {
     border: none;
 }
 
-.form-block input {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-}
-
 .quantity-block {
     display: flex;
     justify-content: space-between;
-}
-
-.form-label {
-    width: 112px;
 }
 
 /* CATALOG */
@@ -601,10 +632,6 @@ body {
     border-top: 10px solid #81b3d2;
 }
 
-.star-block {
-    margin-bottom: 47px;
-}
-
 /* /////////////////////////////////////////////////////// */
 
 /* FILTER */
@@ -625,4 +652,29 @@ body {
 
 .options-block__item {
     width: 50%;
+}
+
+.price-block__range-label {
+    display: flex;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.price-block .start {
+    /* display: inline; */
+}
+
+.price-block button {
+    display: block;
+    width: 133px;
+    height: 32px;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
