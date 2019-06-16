@@ -568,6 +568,11 @@ body {
     justify-content: space-between;
 }
 
+/* .modal-show {
+    display: block;
+  } */
+
+
 /* CATALOG */
 
 .breadcrumbs {
@@ -637,6 +642,7 @@ body {
 /* FILTER */
 
 .filter-block {
+    min-height: 217px;
     background-image: url(../img/filter-background.png);
     background-position: center;
     padding: 31px 72px;
